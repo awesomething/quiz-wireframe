@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pre-Coding Quiz</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
+    type="text/css" />
+  <link href="app.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header role="banner" aria-live="polite"><h1 class="title-homepage">Avengers Coding Quiz</h1>
+  <h2 class="secondary-text">Are ready to join the Avengers?</h2></header>
+  <main id="home-page" aria-live="polite">
+    <form id="start-page">
+      <fieldset id="starter-button">
+        <input type="button" id="start-quiz" aria-label="Start Quiz Button" value="Let's Find Out!"></fieldset></form>
+        <fieldset id="quiz-questions-answers">
+          <legend id="question-text">Which of the following is not a number type variable?</legend>
+          <ul>
+            <li>
+              <input type="radio" name="answer-selections" aria-label="Select Answer" Value="'How_many_Avengers = 6'">
+              <label for="'How_many_Avengers = 6'">howManyAvengers = 6</label>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <input type="radio" name="answer-selections" aria-label="Select Answer" Value="'Number_of_releases = 23.0'">
+              <label for="'Number_of_releases = 23.0'">numberOfReleases = 23.0</label>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <input type="radio" name="answer-selections" aria-label="Select Answer" Value="'Thors_age = 1500'">
+              <label for="'Thors_age = 1500'">thorsAge = 1500</label>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <input type="radio" name="answer-selections" aria-label="Select Answer" Value="Non-avenger - 'Loki'">
+              <label for="Non-avenger - 'Loki'">non-avenger = 'Loki'</label>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <input type="button" id="next-question" aria-label="Next Question Button" value="Next Question" style="display:none;">
+              <input type="button"id="submit-button" aria-label="Submit Answer Button" value="Submit Answer">
+              <input type="button" id="show-results" aria-label="Show Results Button" value="Show Me My Results!" style="display:none;">
+              <p id="question-tracker">1 out of 10</p>
+              <p id="score-tracker">Current score is: 0 out of 10</p>
+            </li>
+          </ul>
+        </fieldset>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.js" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

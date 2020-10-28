@@ -1,0 +1,39 @@
+/* Your styles should be mobile-first and responsive */
+
+/** 
+  * If you are unclear on how to utilize a mobile-first, responsive technique to write your CSS, here is an example: 
+  *
+  * https://github.com/andreacardybailey/responsive_example/blob/master/styles/responsive-base.css 
+  *
+*/
+
+header {
+    text-align: center;
+}
+
+main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bolder;
+    color: blue;
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    font-weight: normal;
+    font-style: italic;
+    color: #0F2636;
+}
+
+
+input[type="button"] {
+    font-family: "Ubuntu", sans-serif;
+}
+
+
